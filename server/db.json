@@ -155,7 +155,9 @@
     },
     {
       "name": "nidoqueen",
-      "id": 31
+      "id": 31,
+      "isCaught": true,
+      "date": "17.05.2021, 17:24:42"
     },
     {
       "name": "nidoran-m",
@@ -622,7 +624,9 @@
     },
     {
       "name": "dratini",
-      "id": 147
+      "id": 147,
+      "isCaught": true,
+      "date": "17.05.2021, 17:10:53"
     },
     {
       "name": "dragonair",

@@ -54,11 +54,11 @@ export const pokemonsActions = {
     dispatch(pokemonsActions.stopFetching());
   },
 
-  patchAsync: (id: string) => async (dispatch: any) => {
+  patchAsync: (id: string, lastElId: number) => async (dispatch: any) => {
     const response = await api.pokemon.patch(id);
 
     if (response.status === 200) {
-      dispatch(pokemonsActions.fetchAsync(100, 0));
+      dispatch(pokemonsActions.fetchAsync(lastElId, 0));
     } else {
       const error = {
         status: response.status,

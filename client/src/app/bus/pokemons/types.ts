@@ -20,6 +20,8 @@ export interface IInitialState {
   data: IPokemon[] | null;
   isFetching: boolean;
   error: { status: number } | null;
+  limit: number;
+  offset: number;
 }
 
 export interface IAction {

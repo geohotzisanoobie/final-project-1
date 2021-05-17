@@ -55,7 +55,8 @@ export const useFetchPokemons = (isCaught: boolean) => {
     history.push(`/pokemons/${id}`);
   };
 
-  const catchPokemonHandler = catchPokemon(dispatch);
+  const lastElId = el && el.id ? el.id : "";
+  const catchPokemonHandler = catchPokemon(dispatch, +lastElId);
 
   return {
     data,

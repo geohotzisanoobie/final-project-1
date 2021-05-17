@@ -4,6 +4,8 @@ const initialState: IInitialState = {
   data: null,
   isFetching: false,
   error: null,
+  limit: 20,
+  offset: 0,
 };
 
 export const pokemonsReducer = (
