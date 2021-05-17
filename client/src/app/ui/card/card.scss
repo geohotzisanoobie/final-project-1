@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 33.333%;
+  padding: 1rem;
+  margin: 1rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+
+  &__title {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__img {
+    max-width: 10rem;
+    height: auto;
+  }
+
+  &__status {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__btn {
+    padding: 0.25rem;
+    width: 40%;
+    background-color: rgba(205, 106, 205, 1);
+    border: none;
+    &:disabled {
+      background-color: rgba(205, 106, 205, 0.5);
+      color: rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  &__info {
+    margin-left: 1rem;
+  }
+
+  &__date {
+    margin-top: 1rem;
+    padding: 0 2rem;
+    text-align: center;
+  }
+}

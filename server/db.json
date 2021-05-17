@@ -2,35 +2,50 @@
   "pokemons": [
     {
       "name": "bulbasaur",
-      "id": 1
+      "id": 1,
+      "isCaught": true,
+      "date": "17.05.2021, 12:29:45"
     },
     {
       "name": "ivysaur",
-      "id": 2
+      "id": 2,
+      "isCaught": true,
+      "date": "17.05.2021, 12:28:17"
     },
     {
       "name": "venusaur",
-      "id": 3
+      "id": 3,
+      "isCaught": true,
+      "date": "17.05.2021, 13:55:01"
     },
     {
       "name": "charmander",
-      "id": 4
+      "id": 4,
+      "isCaught": true,
+      "date": "17.05.2021, 14:34:36"
     },
     {
       "name": "charmeleon",
-      "id": 5
+      "id": 5,
+      "isCaught": true
     },
     {
       "name": "charizard",
-      "id": 6
+      "id": 6,
+      "isCaught": true,
+      "date": "17.05.2021, 15:10:38"
     },
     {
       "name": "squirtle",
-      "id": 7
+      "id": 7,
+      "isCaught": true,
+      "date": "17.05.2021, 15:14:55"
     },
     {
       "name": "wartortle",
-      "id": 8
+      "id": 8,
+      "isCaught": true,
+      "date": "17.05.2021, 15:14:36"
     },
     {
       "name": "blastoise",
@@ -38,15 +53,21 @@
     },
     {
       "name": "caterpie",
-      "id": 10
+      "id": 10,
+      "isCaught": true,
+      "date": "17.05.2021, 15:22:53"
     },
     {
       "name": "metapod",
-      "id": 11
+      "id": 11,
+      "isCaught": true,
+      "date": "17.05.2021, 15:17:52"
     },
     {
       "name": "butterfree",
-      "id": 12
+      "id": 12,
+      "isCaught": true,
+      "date": "17.05.2021, 15:31:36"
     },
     {
       "name": "weedle",
@@ -54,11 +75,15 @@
     },
     {
       "name": "kakuna",
-      "id": 14
+      "id": 14,
+      "isCaught": true,
+      "date": "17.05.2021, 15:24:36"
     },
     {
       "name": "beedrill",
-      "id": 15
+      "id": 15,
+      "isCaught": true,
+      "date": "17.05.2021, 15:48:23"
     },
     {
       "name": "pidgey",
@@ -66,7 +91,9 @@
     },
     {
       "name": "pidgeotto",
-      "id": 17
+      "id": 17,
+      "isCaught": true,
+      "date": "17.05.2021, 16:02:40"
     },
     {
       "name": "pidgeot",
@@ -86,11 +113,15 @@
     },
     {
       "name": "fearow",
-      "id": 22
+      "id": 22,
+      "isCaught": true,
+      "date": "17.05.2021, 15:31:27"
     },
     {
       "name": "ekans",
-      "id": 23
+      "id": 23,
+      "isCaught": true,
+      "date": "17.05.2021, 16:04:57"
     },
     {
       "name": "arbok",
@@ -106,7 +137,9 @@
     },
     {
       "name": "sandshrew",
-      "id": 27
+      "id": 27,
+      "isCaught": true,
+      "date": "17.05.2021, 15:48:53"
     },
     {
       "name": "sandslash",
@@ -230,7 +263,8 @@
     },
     {
       "name": "growlithe",
-      "id": 58
+      "id": 58,
+      "isCought": true
     },
     {
       "name": "arcanine",
@@ -398,7 +432,9 @@
     },
     {
       "name": "voltorb",
-      "id": 100
+      "id": 100,
+      "isCaught": true,
+      "date": "17.05.2021, 15:49:01"
     },
     {
       "name": "electrode",
@@ -778,7 +814,9 @@
     },
     {
       "name": "quagsire",
-      "id": 195
+      "id": 195,
+      "isCaught": true,
+      "date": "17.05.2021, 15:49:07"
     },
     {
       "name": "espeon",

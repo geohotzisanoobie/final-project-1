@@ -1,0 +1,15 @@
+@import "./normalize.scss";
+@import "./reset.scss";
+@import "./imports.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  min-height: 100vh;
+  font-family: Montserrat, sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  height: 100%;
+  margin: 0 auto;
+}
