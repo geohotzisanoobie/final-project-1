@@ -8,8 +8,11 @@ import { ErrorPage } from "../pages/404";
 import { Pokemon } from "../pages/pokemon";
 import { CaughtPokemons } from "../pages/caught_pokemons";
 
+import { NavBar } from "../ui/navbar";
+
 export const Routes = () => (
   <Router>
+    <NavBar />
     <Switch>
       <Route exact path={books.home}>
         <Pokemons />

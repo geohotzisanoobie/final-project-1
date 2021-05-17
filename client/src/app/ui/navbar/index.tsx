@@ -5,12 +5,12 @@ import { books } from "../../navigation/books";
 
 export const NavBar = () => {
   return (
-    <nav className="nav">
-      <Link to={books.home} className="nav__link">
+    <nav className="navbar">
+      <Link to={books.home} className="navbar__link">
         Pokemons
       </Link>
-      <Link to={books.home} className="nav__link">
-        Pokemons
+      <Link to={books.caughtPokemons} className="navbar__link">
+        Caught Pokemons
       </Link>
     </nav>
   );
