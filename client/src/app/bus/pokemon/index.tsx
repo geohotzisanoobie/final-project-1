@@ -27,6 +27,7 @@ export const Pokemon: FC<IPokemonProps> = ({ id }) => {
         isCaught={data.isCaught}
         date={data.date}
         catchPokemon={() => catchPokemonHandler(data.id)}
+        id={data.id}
       />
     </div>
   );

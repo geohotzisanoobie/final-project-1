@@ -7,6 +7,7 @@ interface ICard {
   isCaught: boolean;
   redirect?: () => void;
   date?: string;
+  id?: string;
 }
 
 export const Card: FC<ICard> = ({
@@ -16,10 +17,13 @@ export const Card: FC<ICard> = ({
   isCaught,
   redirect,
   date,
+  id,
 }) => {
   return (
     <div className="card">
-      <h2 className="card__title">{name}</h2>
+      <h2 className="card__title">
+        {name} {id && <span># {id}</span>}
+      </h2>
       <img
         src={src}
         alt={name}

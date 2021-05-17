@@ -237,7 +237,9 @@
     },
     {
       "name": "dugtrio",
-      "id": 51
+      "id": 51,
+      "isCaught": true,
+      "date": "17.05.2021, 17:38:39"
     },
     {
       "name": "meowth",
@@ -314,7 +316,9 @@
     },
     {
       "name": "weepinbell",
-      "id": 70
+      "id": 70,
+      "isCaught": true,
+      "date": "17.05.2021, 17:37:41"
     },
     {
       "name": "victreebel",
